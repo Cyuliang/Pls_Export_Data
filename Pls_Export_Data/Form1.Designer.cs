@@ -43,25 +43,25 @@
             this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.Exportbutton = new System.Windows.Forms.Button();
-            this.Findbutton = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.label1 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.dataSet1 = new System.Data.DataSet();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.DataradioButton = new System.Windows.Forms.RadioButton();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.label1 = new System.Windows.Forms.Label();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.PlateText = new System.Windows.Forms.TextBox();
+            this.Findbutton = new System.Windows.Forms.Button();
+            this.Exportbutton = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.TimeradioButton = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).BeginInit();
             this.bindingNavigator1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
-            this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // bindingNavigator1
@@ -194,100 +194,15 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(800, 425);
             this.tableLayoutPanel1.TabIndex = 1;
             // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.Exportbutton);
-            this.groupBox1.Controls.Add(this.Findbutton);
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Controls.Add(this.dateTimePicker2);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.dateTimePicker1);
-            this.groupBox1.Controls.Add(this.radioButton2);
-            this.groupBox1.Controls.Add(this.radioButton1);
-            this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox1.Location = new System.Drawing.Point(3, 3);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(794, 94);
-            this.groupBox1.TabIndex = 0;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "查询";
-            // 
-            // Exportbutton
-            // 
-            this.Exportbutton.Location = new System.Drawing.Point(622, 20);
-            this.Exportbutton.Name = "Exportbutton";
-            this.Exportbutton.Size = new System.Drawing.Size(75, 23);
-            this.Exportbutton.TabIndex = 7;
-            this.Exportbutton.Text = "导出数据";
-            this.Exportbutton.UseVisualStyleBackColor = true;
-            this.Exportbutton.Click += new System.EventHandler(this.Exportbutton_Click);
-            // 
-            // Findbutton
-            // 
-            this.Findbutton.Location = new System.Drawing.Point(526, 19);
-            this.Findbutton.Name = "Findbutton";
-            this.Findbutton.Size = new System.Drawing.Size(75, 23);
-            this.Findbutton.TabIndex = 6;
-            this.Findbutton.Text = "查询";
-            this.Findbutton.UseVisualStyleBackColor = true;
-            this.Findbutton.Click += new System.EventHandler(this.Findbutton_Click);
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(76, 57);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 21);
-            this.textBox1.TabIndex = 5;
-            // 
-            // dateTimePicker2
-            // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(299, 20);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(200, 21);
-            this.dateTimePicker2.TabIndex = 4;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(282, 24);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(11, 12);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "-";
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(76, 20);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 21);
-            this.dateTimePicker1.TabIndex = 2;
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(23, 58);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(47, 16);
-            this.radioButton2.TabIndex = 1;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "车牌";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(23, 22);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(47, 16);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "日期";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
             // dataGridView1
             // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView1.GridColor = System.Drawing.Color.DarkGreen;
             this.dataGridView1.Location = new System.Drawing.Point(3, 103);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 23;
@@ -298,6 +213,96 @@
             // 
             this.dataSet1.DataSetName = "NewDataSet";
             // 
+            // DataradioButton
+            // 
+            this.DataradioButton.AutoSize = true;
+            this.DataradioButton.Location = new System.Drawing.Point(489, 20);
+            this.DataradioButton.Name = "DataradioButton";
+            this.DataradioButton.Size = new System.Drawing.Size(47, 16);
+            this.DataradioButton.TabIndex = 1;
+            this.DataradioButton.TabStop = true;
+            this.DataradioButton.Text = "车牌";
+            this.DataradioButton.UseVisualStyleBackColor = true;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(17, 50);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 21);
+            this.dateTimePicker1.TabIndex = 2;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(223, 54);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(11, 12);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "-";
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.Location = new System.Drawing.Point(240, 50);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(200, 21);
+            this.dateTimePicker2.TabIndex = 4;
+            // 
+            // PlateText
+            // 
+            this.PlateText.Location = new System.Drawing.Point(489, 51);
+            this.PlateText.Name = "PlateText";
+            this.PlateText.Size = new System.Drawing.Size(100, 21);
+            this.PlateText.TabIndex = 5;
+            // 
+            // Findbutton
+            // 
+            this.Findbutton.Location = new System.Drawing.Point(632, 51);
+            this.Findbutton.Name = "Findbutton";
+            this.Findbutton.Size = new System.Drawing.Size(75, 23);
+            this.Findbutton.TabIndex = 6;
+            this.Findbutton.Text = "查询";
+            this.Findbutton.UseVisualStyleBackColor = true;
+            this.Findbutton.Click += new System.EventHandler(this.Findbutton_Click);
+            // 
+            // Exportbutton
+            // 
+            this.Exportbutton.Location = new System.Drawing.Point(713, 51);
+            this.Exportbutton.Name = "Exportbutton";
+            this.Exportbutton.Size = new System.Drawing.Size(75, 23);
+            this.Exportbutton.TabIndex = 7;
+            this.Exportbutton.Text = "导出数据";
+            this.Exportbutton.UseVisualStyleBackColor = true;
+            this.Exportbutton.Click += new System.EventHandler(this.Exportbutton_Click);
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.Exportbutton);
+            this.groupBox1.Controls.Add(this.Findbutton);
+            this.groupBox1.Controls.Add(this.PlateText);
+            this.groupBox1.Controls.Add(this.dateTimePicker2);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.dateTimePicker1);
+            this.groupBox1.Controls.Add(this.DataradioButton);
+            this.groupBox1.Controls.Add(this.TimeradioButton);
+            this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBox1.Location = new System.Drawing.Point(3, 3);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(794, 94);
+            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "查询";
+            // 
+            // TimeradioButton
+            // 
+            this.TimeradioButton.AutoSize = true;
+            this.TimeradioButton.Location = new System.Drawing.Point(17, 20);
+            this.TimeradioButton.Name = "TimeradioButton";
+            this.TimeradioButton.Size = new System.Drawing.Size(47, 16);
+            this.TimeradioButton.TabIndex = 0;
+            this.TimeradioButton.TabStop = true;
+            this.TimeradioButton.Text = "日期";
+            this.TimeradioButton.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -305,17 +310,18 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.bindingNavigator1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "普洛斯导出数据工具";
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).EndInit();
             this.bindingNavigator1.ResumeLayout(false);
             this.bindingNavigator1.PerformLayout();
             this.tableLayoutPanel1.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -336,18 +342,18 @@
         private System.Windows.Forms.ToolStripButton bindingNavigatorMoveLastItem;
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator2;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button Exportbutton;
-        private System.Windows.Forms.Button Findbutton;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Data.DataSet dataSet1;
         private System.Windows.Forms.BindingSource bindingSource1;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button Exportbutton;
+        private System.Windows.Forms.Button Findbutton;
+        private System.Windows.Forms.TextBox PlateText;
+        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.RadioButton DataradioButton;
+        private System.Windows.Forms.RadioButton TimeradioButton;
     }
 }
 
